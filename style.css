@@ -39,6 +39,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .section-1-content {
     display: flex;
     margin-top: 80px;
@@ -76,14 +80,19 @@ a {
 
 .signup-btn {
     background-color: #3882F6;
-    color: #E5E7EB;
+    color: #F9FAF8;
     border: 0px;
     font-size: 16px;
     font-weight: bold;
     padding: 8px;
     width: 125px;
+    height: 40px;
     border-radius: 7px;
     margin-top: 14px;
+}
+
+.signup-btn:hover {
+    cursor: grab;
 }
 
 .section-2 {
@@ -132,8 +141,8 @@ a {
     display: flex;
     flex-direction: column;
     gap: 0;
-    padding-top: 120px;
-    padding-bottom: 90px;
+    padding-top: 140px;
+    padding-bottom: 110px;
     padding-left: 330px;
     padding-right: 330px;
 }
@@ -157,13 +166,54 @@ a {
     font-size: 22px;
 }
 
-
-
-
 .section-4 {
-    
+    display: flex;
+    align-items: center;
+    padding-top: 110px;
+    padding-bottom: 110px;
 }
 
+.section-4-signup {
+    background-color: #3882F6;
+    flex-grow: 1;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+.signup-btn-2 {
+    border: 2px solid;
+    border-color: #F9FAF8;
+    margin: 0px;
+}
+
+.section-4-text-1 {
+    color: #F9FAF8;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.section-4-text-2 {
+    color: #F9FAF8;
+    margin: 0;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+
+
 .footer {
-    background-color: #1F2937
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
