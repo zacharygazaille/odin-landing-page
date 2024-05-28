@@ -1,5 +1,4 @@
 body {
-    height: 100vh;
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -72,7 +71,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     margin: 0;
-    margin-top: 14px;
+    margin-top: 8px;
 }
 
 .signup-btn {
@@ -87,12 +86,49 @@ a {
     margin-top: 14px;
 }
 
-
-
-
 .section-2 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.section-2-content {
+    display: flex;
+    gap: 50px;
+    margin-bottom: 100px;
+}
+
+.section-2-img {
+    width: 170px;
+    height: 170px;
+    border: 3px solid;
+    border-color: #3882F6;
+    border-radius: 16px;
+}
+
+.subtitle {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin: 50px;
+}
+
+.section-2-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 170px;
+}
+
+.section-2-caption {
+    margin-top: 9px;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+
+
 
 .section-3 {
     background-color: #E5E7EB;
