@@ -9,10 +9,35 @@ body {
 body>div {
     padding-left: 200px;
     padding-right: 200px;
+    display: flex;
 }
 
 .section-1 {
     background-color: #1F2937;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .section-2 {
