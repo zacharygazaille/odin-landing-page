@@ -92,7 +92,7 @@ a:hover {
 }
 
 .signup-btn:hover {
-    cursor: grab;
+    cursor: pointer;
 }
 
 .section-2 {
